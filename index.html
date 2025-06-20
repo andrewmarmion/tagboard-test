@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <base href="https://embed.tagboard.com/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tagboard WKWebView Test</title>
+
+  <!-- Set the Tagboard domain so their script initializes properly -->
+  <script>
+    window.tagboardDomain = "https://embed.tagboard.com";
+  </script>
+
+  <!-- Load Tagboard's embed script -->
+  <script src="https://static.tagboard.com/embed/assets/js/embed.js"></script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .tagboard-embed {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tagboard Test Embed</h1>
+  <p>If you can see content below, it's working.</p>
+
+  <!-- Replace this with your actual embed ID -->
+  <div class="tagboard-embed" tgb-embed-id="17577"></div>
+</body>
+</html>
